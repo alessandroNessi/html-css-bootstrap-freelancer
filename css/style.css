@@ -7,3 +7,12 @@ a{
     text-decoration: none;
     color: white;
 }
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+.banner{
+    background-color: #1abc9c;
+    padding-top: 150px;
+}
