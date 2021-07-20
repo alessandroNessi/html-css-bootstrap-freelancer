@@ -12,8 +12,10 @@ a{
     height: 200px;
     background-color: tomato;
 }
-.banner{
+.banner,.about{
     background-color: #1abc9c;
+}
+.banner{
     padding-top: 150px;
 }
 .portfolio__image{
@@ -25,4 +27,7 @@ a{
     background-color: powderblue;
     width: 200px;
     height: 200px;
+}
+.about__button--color{
+    background-color: transparent;
 }
