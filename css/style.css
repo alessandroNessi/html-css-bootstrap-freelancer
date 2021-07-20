@@ -12,10 +12,10 @@ a{
     height: 200px;
     background-color: tomato;
 }
-.banner,.about{
+#banner,#about{
     background-color: #1abc9c;
 }
-.banner{
+#banner{
     padding-top: 150px;
 }
 .portfolio__image{
