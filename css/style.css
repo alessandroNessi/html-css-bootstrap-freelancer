@@ -4,6 +4,9 @@ header{
     width: 100%;
     z-index: 1;
 }
+ul{
+    list-style: none;
+}
 header .navbar{
     height: inherit;
     padding: 0;
@@ -35,10 +38,12 @@ a{
 }
 .img{
     width: 250px;
-    height: 250px;
 }
 #banner,#about{
     background-color: #1abc9c;
+}
+.footer__button--link{
+    color: #1abc9c;
 }
 .portfolio__image{
     width: 100%;
@@ -62,14 +67,6 @@ a{
 #bot__footer p{
     margin-bottom: 0;
 }
-.debug{
-    height: 50px;
-    background-color: wheat;
-}
-.input-text{
-    border: none;
-    align-self: flex-end ;
-}
 #contact-me form input, #contact-me form textarea{
     border-width: 0 0 1px 0;
     border-color: lightgray;
@@ -85,4 +82,17 @@ a{
 .form-floating>.form-control:focus~label{
     opacity: .65;
     transform: scale(.85) translateY(-.5rem) translateX(.15rem);
+}
+.footer__button--social{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#top__footer ul{
+    padding-inline-start: 0px;
 }
