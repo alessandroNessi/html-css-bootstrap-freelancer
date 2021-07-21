@@ -35,9 +35,6 @@ a{
 #banner,#about{
     background-color: #1abc9c;
 }
-/* #banner{
-    margin-top: 80px;
-} */
 .portfolio__image{
     width: 100%;
     overflow: hidden;
