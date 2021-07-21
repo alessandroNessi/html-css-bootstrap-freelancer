@@ -163,16 +163,26 @@
                     </div>
                 </div>
                 <div class="row m-3 justify-content-center">
-                    <div class="col-10 col-md-8 col-xl-6" >
-                        <div class="row">
-                            <div class="container">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="input-text" id="name" placeholder="" value="" required="">
+                    <div class="col-10 col-md-8" >
+                        <form>
+                            <div class="form-floating mb-2">
+                                <input type="text" class="form-control" id="floatingInput1" placeholder="name">
+                                <label for="floatingInput1">Name</label>
                             </div>
-                        </div>  
-                        <div class="my-3" > 
-                            <button class="contact-me__button--color px-3 py-1 border rounded-3 text-white">Send</button>
-                        </div>
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control" id="floatingInput2" placeholder="email">
+                                <label for="floatingInput2">Email Address</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="tel" class="form-control" id="floatingInput3" placeholder="telephone">
+                                <label for="floatingInput3">Telephone Number</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <textarea class="form-control" id="floatingInput4" rows="3"></textarea>
+                                <label for="floatingInput4">Message</label>
+                            </div>
+                            <button type="submit" class="contact-me__button--color px-3 py-1 border rounded-3 text-white">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>

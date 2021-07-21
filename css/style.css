@@ -2,6 +2,7 @@ header{
     background-color: #2c3e50;
     height: 80px;
     width: 100%;
+    z-index: 1;
 }
 header .navbar{
     height: inherit;
@@ -68,4 +69,20 @@ a{
 .input-text{
     border: none;
     align-self: flex-end ;
+}
+#contact-me form input, #contact-me form textarea{
+    border-width: 0 0 1px 0;
+    border-color: lightgray;
+    border-radius: 0;
+}
+#contact-me form textarea{
+    height: 150px;
+}
+.form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: 1;
+    transform: scale(1) translateY(0rem) translateX(0rem);
+}
+.form-floating>.form-control:focus~label{
+    opacity: .65;
+    transform: scale(.85) translateY(-.5rem) translateX(.15rem);
 }
